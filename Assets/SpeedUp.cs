@@ -6,7 +6,7 @@ public class SpeedUp : MonoBehaviour
 {
     [Tooltip("Fizyka zwolni jak dany gameobject ruszy się o taką odległość")]
     [Range(0f, 1f)]
-    public float distanceTreshold = 0.1f;
+    public float distanceTreshold = 5f;
     Vector3 startPosition;
 
     void Awake()

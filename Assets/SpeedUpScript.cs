@@ -12,12 +12,12 @@ public class SpeedUpScript : MonoBehaviour
 
 	}
 	
-	void Update () 
+	 void Update () 
 	{
 		if (Vector3.Distance (transform.position, startPosition) > 0.1f) 
 		{
 			Time.timeScale = 1;
-		}
+		} 
 		
-	}
+	} 
 }
